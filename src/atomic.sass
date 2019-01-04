@@ -3,18 +3,19 @@
  * author: Anph
  * created: 04/01/2019 10:14:30
  */
-
-
-nav
-  ul
-    margin: 0
-    padding: 0
-    list-style: none
-
-  li
-    display: inline-block
-
-  a
-    display: block
-    padding: 6px 12px
-    text-decoration: none
+//margin: mx- | padding: px-
+@for $i from 0 through 10 
+  .px-#{$i * 5}   {padding: 5px * $i}
+  .px-l-#{$i * 5} {padding-left: 5px * $i}
+  .px-r-#{$i * 5} {padding-right: 5px * $i}
+  .px-t-#{$i * 5} {padding-top: 5px * $i}
+  .px-b-#{$i * 5} {padding-bottom: 5px * $i}
+  .mx-#{$i * 5}   {margin: 5px * $i}
+  .mx-l-#{$i * 5} {margin-left: 5px * $i}
+  .mx-r-#{$i * 5} {margin-right: 5px * $i}
+  .mx-t-#{$i * 5} {margin-top: 5px * $i}
+  .mx-b-#{$i * 5} {margin-bottom: 5px * $i}
+//border radius: rd-
+@for $i from 0 through 50
+  .rd-#{$i} {border-radius: 5px * $i}
+  .rd-#{$i} {border-radius: 1% * $i}
