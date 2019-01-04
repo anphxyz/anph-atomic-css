@@ -1,0 +1,26 @@
+{
+  "name": "anph-atomic-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anph29/anph-atomic-css.git"
+  },
+  "keywords": [
+    "atomic"
+  ],
+  "author": "Anph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anph29/anph-atomic-css/issues"
+  },
+  "homepage": "https://github.com/anph29/anph-atomic-css#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "node-sass": "^4.11.0"
+  }
+}
