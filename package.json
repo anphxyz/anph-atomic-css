@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/anph29/anph-atomic-css#readme",
   "dependencies": {
-    "commander": "^2.19.0",
+    "commander": "^7.0.0",
     "node-sass": "^4.11.0"
   }
 }
