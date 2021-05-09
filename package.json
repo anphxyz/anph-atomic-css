@@ -21,6 +21,6 @@
   "homepage": "https://github.com/anph29/anph-atomic-css#readme",
   "dependencies": {
     "commander": "^2.19.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^6.0.0"
   }
 }
